@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Register Page</title>
+   </head>
+   <body>
+      <header>
+         <div>
+            <a href="../Pages/index.html"
+               ><img src="../Multimedia/new_cn_logo.svg" alt="CN LOGO"
+            /></a>
+         </div>
+      </header>
+
+      <main>
+         <h1>Create an Account</h1>
+
+         <form action="../Pages/index.html" method="post">
+            <fieldset>
+               <legend>Personal Information</legend>
+               <div>
+                  <label for="fullname">Full Name: </label>
+                  <input
+                     type="text"
+                     id="fullname"
+                     name="fullname"
+                     width="100"
+                     placeholder="Please enter full name"
+                     required
+                  />
+               </div>
+
+               <br />
+               <div>
+                  <label for="email">Email Id: </label>
+                  <input
+                     type="email"
+                     id="email"
+                     name="email"
+                     width="20"
+                     placeholder="Please enter a valid email"
+                     style="margin-left: 13px"
+                     required
+                  />
+               </div>
+
+               <br />
+               <div>
+                  <label for="username">UserName: </label>
+                  <input
+                     type="text"
+                     id="username"
+                     name="username"
+                     width="20"
+                     placeholder="Please enter username"
+                     required
+                  />
+               </div>
+
+               <br />
+               <div>
+                  <label for="password">Password: </label>
+                  <input
+                     type="password"
+                     id="password"
+                     name="password"
+                     width="20"
+                     placeholder="Please enter a password"
+                     style="margin-left: 8px"
+                     minlength="8"
+                     required
+                  />
+               </div>
+
+               <br />
+               <div>
+                  <label for="usertype">User Type:</label>
+                  <select
+                     id="usertype"
+                     name="usertype"
+                     style="margin-left: 6px"
+                     required
+                  >
+                     <option value="" selected disabled>
+                        Select user type
+                     </option>
+                     <option value="student">Student</option>
+                     <option value="instructor">Instructor</option>
+                  </select>
+               </div>
+
+               <br />
+               <div>
+                  <label for="course">Select Course:</label>
+                  <select id="course" name="course" required multiple>
+                     <option value="webdevelopment">
+                        Course 1- Web Development
+                     </option>
+                     <option value="datascience">Course 2- Data Science</option>
+                     <option value="digitalmarketing">
+                        Course 3- Digital Marketing
+                     </option>
+                     <option value="androiddevelopement">
+                        Course 4- Android Development
+                     </option>
+                  </select>
+               </div>
+
+               <br />
+               <div>
+                  <input type="checkbox" id="update" name="update" checked />
+                  <label for="update">Subscribe to weekly news letter</label>
+               </div>
+
+               <br />
+               <div>
+                  <button type="submit">Register</button>
+               </div>
+            </fieldset>
+         </form>
+      </main>
+      <footer>
+         <hr />
+         <p>&copy;2024, All rights Reserved</p>
+      </footer>
+   </body>
+</html>
