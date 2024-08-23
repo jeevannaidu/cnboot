@@ -1,0 +1,35 @@
+#mainHeading {
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px cyan;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.backgroundExample {
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: white;
+  text-align: center;
+}
+
+.textSection {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  text-align: center;
+}
+
+.textStyle {
+  font-family: "Times New Roman", serif;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+
+body{
+  background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000002590_1708581210_scenery.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}

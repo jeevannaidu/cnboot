@@ -1,0 +1,14 @@
+#outer {
+   background-color: red;
+   width: 200px;
+   height: 200px;
+}
+
+#inner {
+   width: 90%;
+   height: 90%;
+   align-items: center;
+   background-color: aqua;
+   border: 1px #000 dotted;
+   margin: 10px;
+}!

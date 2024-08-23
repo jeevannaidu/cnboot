@@ -1,0 +1,45 @@
+body {
+   background-color: #111;
+   color: #fff;
+   text-align: center;
+   line-height: 1.6;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#mainHeading {
+   text-transform: uppercase;
+   text-decoration: underline;
+   text-shadow: 2px 2px 2px rgb(255, 204, 0);
+   font-weight: bold;
+   font-size: 3vw;
+}
+
+.textSection {
+   font-family: "Courier New", Courier, monospace;
+}
+
+.textStyle {
+   font-family: "Gill Sans", sans-serif;
+   color: #fde39b;
+   font-weight: bolder;
+   font-size: 30px;
+}
+
+img {
+   width: 100em;
+   height: 400px;
+}
+
+.figcaption {
+   font-style: italic;
+   font-weight: 900;
+   color: hsl(33, 88%, 73%);
+}
+
+footer {
+   color: #fff;
+   font-family: "Arial", sans-serif;
+   text-align: center;
+}
