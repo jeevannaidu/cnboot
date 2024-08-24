@@ -1,0 +1,30 @@
+WHAT JS :
+
+High level     - Cross Platform Language.
+Light Weighted - Less System resource usage.
+Interpreted    - Execute instructions directly without earlier compiling a program into machine language.
+JIT compiled   - compiles JS to executable byte code just as it is about to run.
+(Just In Time)
+Multi Pradigm   - Supports different styles of writing the same code.
+Prototype based - Allows the creation of an object without first defining its class.
+Synchronous     - 1 by 1  a sequence.
+Single Threaded
+Dynamic Language - capable of change at run time.
+
+EVOLUTION : 
+
+Internet got invented in 1991.
+
+MOSAIC - First web browser created by Marc Andreessen and Eric Bina at university of Illinois.
+1993 - Net Scope browser static.
+1995 -  Brendan Eich came up with first draft of MOCHA/ LiveScript/ JavaScript 
+(Full of bugs)
+
+1996 - Microsoft came up with Internet Explorer (language JScript - reverse engineered JavaScript).
+     - This made things difficult.
+
+So NetScope went to ECMA -  Europeans Computers Manufacturers Association.
+Then,
+1997 - ECMA 262 was released.
+
+There after JS has been the standard language to build browsers.
