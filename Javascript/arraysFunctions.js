@@ -50,4 +50,50 @@ const merged = phones.concat(cities);
 console.log(merged);
 console.log(phones);
 console.log(cities);
-s;
+
+// Loop over Array
+const students = ["Jeevan", "Sumanth", "Ganesh Prithvi", "Tharun"];
+for (let i = 0; i < students.length; i++) {
+  console.log(`Roll No ${i + 1} : ${students[i]}`);
+}
+
+// findDuplicate function
+
+console.log("====================================================");
+let arr = [4, 2, 34, 4, 1, 12, 1, 4];
+function findDuplicate(arr) {
+  let occurences = new Map();
+  let repeatElements = [];
+
+  for (let j = 0; j < arr.length; j++) {
+    let tempValue = arr[j];
+
+    if (occurences.has(tempValue)) {
+      occurences.set(tempValue, occurences.get(tempValue) + 1);
+    } else {
+      occurences.set(tempValue, 1);
+    }
+  }
+
+  for (let [key, count] of occurences) {
+    if (count > 1) {
+      repeatElements.push(key);
+    }
+  }
+
+  return repeatElements;
+}
+console.log(findDuplicate(arr));
+
+// for ..in Loop
+console.log("====================================================");
+for (let student in students) {
+  console.log(`Roll No ${Number(student) + 1} : ${students[student]}`);
+}
+
+// for ..of Loop
+console.log("====================================================");
+
+for (let student of students) {
+  console.log(student);
+}
