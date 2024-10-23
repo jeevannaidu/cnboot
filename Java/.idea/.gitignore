@@ -1,3 +1,9 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+
+# Ignore IntelliJ IDEA project settings
+.idea/
+
+# Ignore any build outputs or local environment-specific files
+out/
