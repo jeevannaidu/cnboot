@@ -4,6 +4,8 @@ import java.util.*;
 
 public class BinarySearch {
 
+    static Helper helperClass = new Helper();
+
     public static int searchElement(int[] elements, int numberToSearch, int leftPointerIndex, int rightPointerIndex) {
 
         if(leftPointerIndex >  rightPointerIndex) {
@@ -19,27 +21,6 @@ public class BinarySearch {
         } else {
             return searchElement(elements, numberToSearch, midPointerIndex + 1, rightPointerIndex);
         }
-    }
-
-
-    public static int[] generateAnArrayWithRange(int arraySize, int maxNumber) {
-
-        int[] randomNumbers =  new int[arraySize];
-        HashSet<Integer> uniqueNumbers = new HashSet<>();
-        Random random = new Random();
-
-        int index = 0;
-
-        while(uniqueNumbers.size() < 1000) {
-            int randomNumber = random.nextInt(maxNumber) + 1;
-            if(uniqueNumbers.add(randomNumber)) {
-                randomNumbers[index++] = randomNumber;
-            }
-        }
-
-        Arrays.sort(randomNumbers);
-
-        return randomNumbers;
     }
 
 
@@ -62,6 +43,6 @@ public class BinarySearch {
         int n = sc.nextInt();
         sc.close();
 
-        System.out.println(searchElement(generateAnArrayWithRange(arraySize, maxRange), n, 0, arraySize -1));
+        System.out.println(searchElement(helperClass.generateAnArrayWithRange(arraySize, maxRange), n, 0, arraySize -1));
     }
 }
