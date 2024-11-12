@@ -1,4 +1,4 @@
-package SearchingAndSorting;
+package Searching;
 
 public class BinarySearchAss {
 }
