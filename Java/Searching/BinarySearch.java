@@ -43,6 +43,6 @@ public class BinarySearch {
         int n = sc.nextInt();
         sc.close();
 
-        System.out.println(searchElement(helperClass.generateAnArrayWithRange(arraySize, maxRange), n, 0, arraySize -1));
+        System.out.println(searchElement(Helper.generateAnArrayWithRange(arraySize, maxRange, true), n, 0, arraySize -1));
     }
 }
