@@ -22,6 +22,6 @@ public class StreamAPIDemo {
 
 
         Optional<String> first = listOfNames.stream().findFirst();
-        employees.entrySet().stream().filter(entry -> entry.getValue().equals(100)).collect(Collectors.toCollection());
+        ArrayList<Map.Entry<String, Integer>> list = employees.entrySet().stream().filter(entry -> entry.getValue().equals(100)).collect(Collectors.toCollection(ArrayList::new));
     }
 }
