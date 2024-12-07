@@ -1,4 +1,4 @@
-package Basics;
+package DataStructures;
 
 class LinkedListNode {
     int data;
